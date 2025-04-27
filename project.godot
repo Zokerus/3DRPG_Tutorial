@@ -11,5 +11,12 @@ config_version=5
 [application]
 
 config/name="3DRPG_Udemy_Tut"
+run/main_scene="uid://dsywfqppt280r"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
+
+[file_customization]
+
+folder_colors={
+"res://Level/": "blue"
+}
